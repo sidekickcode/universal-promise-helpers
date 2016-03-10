@@ -22,7 +22,7 @@ exports.withConstructor = function(constructor) {
   // all methods that require a custom constructor
   for(var name in exports) {
     if(name === "withConstructor") continue;
-    original = exports[name];
+    var original = exports[name];
     wrapped[name] = doesNotUsePromiseConstructor[name] ?
       original : original.bind(null, constructor);
   }
@@ -102,7 +102,7 @@ function callback(promise, cb) {
     if(!(err instanceof Error)) {
       var original = err;
       err = new Error("Promise rejected with non-error (on .original)");
-      err.original = err;
+      err.original = original;
     }
     cb(err);
   });
