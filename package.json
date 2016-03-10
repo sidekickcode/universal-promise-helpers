@@ -1,0 +1,23 @@
+{
+  "name": "universal-promise-helpers",
+  "version": "1.0.0",
+  "description": "Promise helpers that work with any promise library. Great for libraries that support Angular promises, Bluebird, jQuery & ES6 native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sidekickcode/universal-promise-helpers.git"
+  },
+  "keywords": [
+    "promise",
+    "es6"
+  ],
+  "author": "Tim Ruffles <timruffles@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidekickcode/universal-promise-helpers/issues"
+  },
+  "homepage": "https://github.com/sidekickcode/universal-promise-helpers#readme"
+}
