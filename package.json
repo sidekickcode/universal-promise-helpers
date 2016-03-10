@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/sidekickcode/universal-promise-helpers.git"
   },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "keywords": [
     "promise",
     "es6"
