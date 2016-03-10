@@ -1,6 +1,6 @@
 {
   "name": "universal-promise-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise helpers that work with any promise library. Great for libraries that support Angular promises, Bluebird, jQuery & ES6 native.",
   "main": "universalPromiseHelpers.js",
   "scripts": {
